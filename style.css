@@ -1,0 +1,51 @@
+body {
+  font: 14px Arial,sans-serif;
+  margin: 0px;
+}
+.Structure {
+  width: 100%;
+}
+.topheader {
+  padding: 10px 20px;
+  border: 1px solid black;
+}
+.navigation{
+  padding: 20px;
+  width: 100%;
+}
+nav{
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  word-spacing: 30px;
+  font-size: 17px;
+}
+nav a{
+  text-decoration: none;
+}
+.leftmenu, .workarea {
+  float: left;
+  padding: 20px;
+  box-sizing: border-box;
+  min-height: 400px;
+}
+.leftmenu {
+  width: 20%;
+  border: 1px solid black;
+}
+.workarea {
+  width: 80%;
+  border: 1px solid black;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.footer {
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px;
+}

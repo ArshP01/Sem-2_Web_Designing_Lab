@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Final Practical-2 </title>
+  <style type="text/css">
+    body{
+      font-family: Arial, Verdana, sans-serif;
+      font-size: 18px;
+      background-color: white;
+      text-align: center;}
+    .box{
+      width: 600px;
+      margin: auto;
+      background-color: aqua;}
+    .footer{
+      min-height: 54px;}
+    #heading{
+      font-size: 28px;
+      padding: 25px 0px 0px 0px;}
+.align{
+  text-align: auto;
+  display: inline;}
+  </style>
+</head>
+<body>
+<script src="js/index.js"></script>
+<div class="box">
+  <p id="heading"> Simple Calculator using JS </p>
+  <hr>
+  <form id="form">
+    Enter 1st value: <input type="text" id="firstNumber" /><br>
+    Enter 2nd value: <input type="text" id="secondNumber" /><br>
+    <div class="align"> <p>Result:</p> <p id="result"></p></div><br>
+      <input type="button" onClick="additionBy()" Value="+" />
+      <input type="button" onClick="subtractionBy()" Value="-" />
+      <input type="button" onClick="multiplyBy()" Value="*" />
+      <input type="button" onClick="divideBy()" Value="/" />
+      <input type="button" onClick="modulusBy()" Value="%" />
+  </form>
+  <div class="footer">
+    <hr>
+  </div>
+</div>
+</body>
+</html>
